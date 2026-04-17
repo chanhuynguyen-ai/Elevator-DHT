@@ -1,0 +1,2129 @@
+[
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-27 15:12:25",
+    "date": "2026-03-27",
+    "time": "15:12:25",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:12:25 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-27 15:12:25",
+    "date": "2026-03-27",
+    "time": "15:12:25",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:12:25 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-27 15:20:28",
+    "date": "2026-03-27",
+    "time": "15:20:28",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:20:28 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-27 15:20:29",
+    "date": "2026-03-27",
+    "time": "15:20:29",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:20:29 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-27 15:22:48",
+    "date": "2026-03-27",
+    "time": "15:22:48",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:22:48 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-27 15:22:49",
+    "date": "2026-03-27",
+    "time": "15:22:49",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:22:49 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-27 15:28:03",
+    "date": "2026-03-27",
+    "time": "15:28:03",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:28:03 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-27 15:28:04",
+    "date": "2026-03-27",
+    "time": "15:28:04",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:28:04 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-27 15:28:39",
+    "date": "2026-03-27",
+    "time": "15:28:39",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:28:39 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-27 15:28:58",
+    "date": "2026-03-27",
+    "time": "15:28:58",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:28:58 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-27 15:29:12",
+    "date": "2026-03-27",
+    "time": "15:29:12",
+    "weekday": "Friday",
+    "cam_id": 1,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:29:12 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-27 15:29:13",
+    "date": "2026-03-27",
+    "time": "15:29:13",
+    "weekday": "Friday",
+    "cam_id": 1,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 2,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "27-03-2026 15:29:13 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 11:26:37",
+    "date": "2026-03-31",
+    "time": "11:26:37",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 11:26:37 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 11:26:52",
+    "date": "2026-03-31",
+    "time": "11:26:52",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 11:26:52 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 11:29:07",
+    "date": "2026-03-31",
+    "time": "11:29:07",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 11:29:07 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 11:29:21",
+    "date": "2026-03-31",
+    "time": "11:29:21",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 11:29:21 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 11:29:33",
+    "date": "2026-03-31",
+    "time": "11:29:33",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 11:29:33 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 11:56:07",
+    "date": "2026-03-31",
+    "time": "11:56:07",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 11:56:07 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 12:15:17",
+    "date": "2026-03-31",
+    "time": "12:15:17",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 12:15:17 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 12:15:18",
+    "date": "2026-03-31",
+    "time": "12:15:18",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 12:15:18 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 13:44:00",
+    "date": "2026-03-31",
+    "time": "13:44:00",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 13:44:00 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 14:22:18",
+    "date": "2026-03-31",
+    "time": "14:22:18",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 14:22:18 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 14:22:22",
+    "date": "2026-03-31",
+    "time": "14:22:22",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 14:22:22 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 15:14:39",
+    "date": "2026-03-31",
+    "time": "15:14:39",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 15:14:39 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 15:14:40",
+    "date": "2026-03-31",
+    "time": "15:14:40",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 15:14:40 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 15:26:36",
+    "date": "2026-03-31",
+    "time": "15:26:36",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 15:26:36 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 15:26:36",
+    "date": "2026-03-31",
+    "time": "15:26:36",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 15:26:36 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 15:27:18",
+    "date": "2026-03-31",
+    "time": "15:27:18",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 15:27:18 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 15:27:19",
+    "date": "2026-03-31",
+    "time": "15:27:19",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 15:27:19 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-03-31 17:15:17",
+    "date": "2026-03-31",
+    "time": "17:15:17",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "31-03-2026 17:15:17 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-03-31 17:15:17",
+    "date": "2026-03-31",
+    "time": "17:15:17",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "31-03-2026 17:15:17 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 15:33:38",
+    "date": "2026-04-03",
+    "time": "15:33:38",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:33:38 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 15:37:47",
+    "date": "2026-04-03",
+    "time": "15:37:47",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:37:47 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 15:42:16",
+    "date": "2026-04-03",
+    "time": "15:42:16",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:42:16 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 15:45:44",
+    "date": "2026-04-03",
+    "time": "15:45:44",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:45:44 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-03 15:45:45",
+    "date": "2026-04-03",
+    "time": "15:45:45",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:45:45 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 15:46:32",
+    "date": "2026-04-03",
+    "time": "15:46:32",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:46:32 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 15:46:39",
+    "date": "2026-04-03",
+    "time": "15:46:39",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:46:39 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-03 15:46:44",
+    "date": "2026-04-03",
+    "time": "15:46:44",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "03-04-2026 15:46:44 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 16:03:05",
+    "date": "2026-04-03",
+    "time": "16:03:05",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 16:03:05 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-03 16:03:06",
+    "date": "2026-04-03",
+    "time": "16:03:06",
+    "weekday": "Friday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "03-04-2026 16:03:06 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-03 16:04:34",
+    "date": "2026-04-03",
+    "time": "16:04:34",
+    "weekday": "Friday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "03-04-2026 16:04:34 | FIRDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-06 09:58:47",
+    "date": "2026-04-06",
+    "time": "09:58:47",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "06-04-2026 09:58:47 | MONDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-06 09:58:47",
+    "date": "2026-04-06",
+    "time": "09:58:47",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "06-04-2026 09:58:47 | MONDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-06 10:09:05",
+    "date": "2026-04-06",
+    "time": "10:09:05",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "06-04-2026 10:09:05 | MONDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-06 10:09:05",
+    "date": "2026-04-06",
+    "time": "10:09:05",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Nguyen Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "06-04-2026 10:09:05 | MONDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-06 12:11:53",
+    "date": "2026-04-06",
+    "time": "12:11:53",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "06-04-2026 12:11:53 | MONDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-06 13:54:42",
+    "date": "2026-04-06",
+    "time": "13:54:42",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "06-04-2026 13:54:42 | MONDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-06 13:54:43",
+    "date": "2026-04-06",
+    "time": "13:54:43",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "06-04-2026 13:54:43 | MONDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-06 13:55:28",
+    "date": "2026-04-06",
+    "time": "13:55:28",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "06-04-2026 13:55:28 | MONDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-06 13:55:29",
+    "date": "2026-04-06",
+    "time": "13:55:29",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "06-04-2026 13:55:29 | MONDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-06 13:55:49",
+    "date": "2026-04-06",
+    "time": "13:55:49",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "06-04-2026 13:55:49 | MONDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-06 13:55:50",
+    "date": "2026-04-06",
+    "time": "13:55:50",
+    "weekday": "Monday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "06-04-2026 13:55:50 | MONDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-07 16:07:08",
+    "date": "2026-04-07",
+    "time": "16:07:08",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "07-04-2026 16:07:08 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-07 16:07:09",
+    "date": "2026-04-07",
+    "time": "16:07:09",
+    "weekday": "Tuesday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "07-04-2026 16:07:09 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-07 16:08:31",
+    "date": "2026-04-07",
+    "time": "16:08:31",
+    "weekday": "Tuesday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "07-04-2026 16:08:31 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-07 16:08:32",
+    "date": "2026-04-07",
+    "time": "16:08:32",
+    "weekday": "Tuesday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "07-04-2026 16:08:32 | TUESDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-09 09:53:55",
+    "date": "2026-04-09",
+    "time": "09:53:55",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "09-04-2026 09:53:55 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-09 09:54:17",
+    "date": "2026-04-09",
+    "time": "09:54:17",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "09-04-2026 09:54:17 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 11:57:43",
+    "date": "2026-04-16",
+    "time": "11:57:43",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 11:57:43 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 11:57:43",
+    "date": "2026-04-16",
+    "time": "11:57:43",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 11:57:43 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 11:57:58",
+    "date": "2026-04-16",
+    "time": "11:57:58",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 11:57:58 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 11:57:58",
+    "date": "2026-04-16",
+    "time": "11:57:58",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 11:57:58 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 14:05:26",
+    "date": "2026-04-16",
+    "time": "14:05:26",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:05:26 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 14:05:26",
+    "date": "2026-04-16",
+    "time": "14:05:26",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:05:26 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 14:36:35",
+    "date": "2026-04-16",
+    "time": "14:36:35",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:36:35 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 14:36:36",
+    "date": "2026-04-16",
+    "time": "14:36:36",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:36:35 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 14:52:34",
+    "date": "2026-04-16",
+    "time": "14:52:34",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:52:34 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 14:52:35",
+    "date": "2026-04-16",
+    "time": "14:52:35",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:52:35 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 14:53:22",
+    "date": "2026-04-16",
+    "time": "14:53:22",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:53:22 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 14:53:23",
+    "date": "2026-04-16",
+    "time": "14:53:23",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:53:23 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 14:53:46",
+    "date": "2026-04-16",
+    "time": "14:53:46",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:53:46 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 14:53:47",
+    "date": "2026-04-16",
+    "time": "14:53:47",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:53:47 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 14:53:53",
+    "date": "2026-04-16",
+    "time": "14:53:53",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:53:53 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 14:53:54",
+    "date": "2026-04-16",
+    "time": "14:53:54",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:53:54 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 14:54:39",
+    "date": "2026-04-16",
+    "time": "14:54:39",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:54:39 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 14:54:40",
+    "date": "2026-04-16",
+    "time": "14:54:40",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 14:54:40 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:26:38",
+    "date": "2026-04-16",
+    "time": "16:26:38",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:26:38 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:26:39",
+    "date": "2026-04-16",
+    "time": "16:26:39",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:26:39 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:27:05",
+    "date": "2026-04-16",
+    "time": "16:27:05",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:27:05 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:27:06",
+    "date": "2026-04-16",
+    "time": "16:27:06",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:27:06 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:27:22",
+    "date": "2026-04-16",
+    "time": "16:27:22",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:27:22 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:27:23",
+    "date": "2026-04-16",
+    "time": "16:27:23",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:27:23 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:27:45",
+    "date": "2026-04-16",
+    "time": "16:27:45",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:27:45 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:27:46",
+    "date": "2026-04-16",
+    "time": "16:27:46",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:27:46 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:30:00",
+    "date": "2026-04-16",
+    "time": "16:30:00",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:30:00 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:30:00",
+    "date": "2026-04-16",
+    "time": "16:30:00",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:30:00 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:36:27",
+    "date": "2026-04-16",
+    "time": "16:36:27",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:36:27 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:36:27",
+    "date": "2026-04-16",
+    "time": "16:36:27",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:36:27 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:37:33",
+    "date": "2026-04-16",
+    "time": "16:37:33",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:37:33 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:37:34",
+    "date": "2026-04-16",
+    "time": "16:37:34",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:37:34 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:58:18",
+    "date": "2026-04-16",
+    "time": "16:58:18",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:58:18 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:58:19",
+    "date": "2026-04-16",
+    "time": "16:58:19",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:58:19 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:58:43",
+    "date": "2026-04-16",
+    "time": "16:58:43",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:58:43 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:58:44",
+    "date": "2026-04-16",
+    "time": "16:58:44",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:58:44 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 16:59:22",
+    "date": "2026-04-16",
+    "time": "16:59:22",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:59:22 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 16:59:23",
+    "date": "2026-04-16",
+    "time": "16:59:23",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": 1,
+    "person_name": "Van Dat",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 16:59:23 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:21:36",
+    "date": "2026-04-16",
+    "time": "17:21:36",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:36 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:21:37",
+    "date": "2026-04-16",
+    "time": "17:21:37",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:37 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:21:38",
+    "date": "2026-04-16",
+    "time": "17:21:38",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:38 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:21:40",
+    "date": "2026-04-16",
+    "time": "17:21:40",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:40 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:21:41",
+    "date": "2026-04-16",
+    "time": "17:21:41",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": 1,
+    "person_name": "Van Dat",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:41 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:21:42",
+    "date": "2026-04-16",
+    "time": "17:21:42",
+    "weekday": "Thursday",
+    "cam_id": 3,
+    "person_id": 1,
+    "person_name": "Van Dat",
+    "extra": {
+      "people_count": 3,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:42 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:21:44",
+    "date": "2026-04-16",
+    "time": "17:21:44",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": 1,
+    "person_name": "Van Dat",
+    "extra": {
+      "people_count": 2,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:44 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:21:56",
+    "date": "2026-04-16",
+    "time": "17:21:56",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:56 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:21:58",
+    "date": "2026-04-16",
+    "time": "17:21:58",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:21:58 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:22:16",
+    "date": "2026-04-16",
+    "time": "17:22:16",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:22:16 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:22:16",
+    "date": "2026-04-16",
+    "time": "17:22:16",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:22:16 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:22:51",
+    "date": "2026-04-16",
+    "time": "17:22:51",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:22:51 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:22:53",
+    "date": "2026-04-16",
+    "time": "17:22:53",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:22:52 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:23:27",
+    "date": "2026-04-16",
+    "time": "17:23:27",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": 2,
+    "person_name": "Chan Huy",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:23:27 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:23:28",
+    "date": "2026-04-16",
+    "time": "17:23:28",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": 2,
+    "person_name": "Chan Huy",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:23:28 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:23:47",
+    "date": "2026-04-16",
+    "time": "17:23:47",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 3,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:23:47 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "CROWD",
+    "timestamp": "2026-04-16 17:23:50",
+    "date": "2026-04-16",
+    "time": "17:23:50",
+    "weekday": "Thursday",
+    "cam_id": "ALL",
+    "person_id": null,
+    "person_name": "MULTI_PERSON",
+    "extra": {
+      "people_count": 4,
+      "crowd_threshold": 4,
+      "realtime_str": "16-04-2026 17:23:50 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:23:50",
+    "date": "2026-04-16",
+    "time": "17:23:50",
+    "weekday": "Thursday",
+    "cam_id": 3,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 4,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:23:50 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:23:52",
+    "date": "2026-04-16",
+    "time": "17:23:52",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": 1,
+    "person_name": "Van Dat",
+    "extra": {
+      "people_count": 4,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:23:52 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:23:52",
+    "date": "2026-04-16",
+    "time": "17:23:52",
+    "weekday": "Thursday",
+    "cam_id": 3,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 4,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:23:52 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:23:55",
+    "date": "2026-04-16",
+    "time": "17:23:55",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": 2,
+    "person_name": "Chan Huy",
+    "extra": {
+      "people_count": 4,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:23:55 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:24:50",
+    "date": "2026-04-16",
+    "time": "17:24:50",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 5,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:24:50 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:03",
+    "date": "2026-04-16",
+    "time": "17:25:03",
+    "weekday": "Thursday",
+    "cam_id": 3,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 4,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:03 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:07",
+    "date": "2026-04-16",
+    "time": "17:25:07",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 4,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:07 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:25:13",
+    "date": "2026-04-16",
+    "time": "17:25:13",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:13 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:21",
+    "date": "2026-04-16",
+    "time": "17:25:21",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:21 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:23",
+    "date": "2026-04-16",
+    "time": "17:25:23",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:23 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:26",
+    "date": "2026-04-16",
+    "time": "17:25:26",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 3,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:26 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:25:27",
+    "date": "2026-04-16",
+    "time": "17:25:27",
+    "weekday": "Thursday",
+    "cam_id": 2,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 3,
+      "posture": "TE NGA",
+      "holding": true,
+      "realtime_str": "16-04-2026 17:25:27 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:37",
+    "date": "2026-04-16",
+    "time": "17:25:37",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:37 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:37",
+    "date": "2026-04-16",
+    "time": "17:25:37",
+    "weekday": "Thursday",
+    "cam_id": 1,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 2,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:37 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:39",
+    "date": "2026-04-16",
+    "time": "17:25:39",
+    "weekday": "Thursday",
+    "cam_id": 3,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 3,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:39 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:41",
+    "date": "2026-04-16",
+    "time": "17:25:41",
+    "weekday": "Thursday",
+    "cam_id": 4,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 5,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:41 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:25:42",
+    "date": "2026-04-16",
+    "time": "17:25:42",
+    "weekday": "Thursday",
+    "cam_id": 5,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 5,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:42 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "FALL",
+    "timestamp": "2026-04-16 17:25:44",
+    "date": "2026-04-16",
+    "time": "17:25:44",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 5,
+      "posture": "TE NGA",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:25:44 | THURSDAY"
+    }
+  },
+  {
+    "event_type": "LYING",
+    "timestamp": "2026-04-16 17:27:02",
+    "date": "2026-04-16",
+    "time": "17:27:02",
+    "weekday": "Thursday",
+    "cam_id": 0,
+    "person_id": null,
+    "person_name": "Unknown",
+    "extra": {
+      "people_count": 1,
+      "posture": "NAM",
+      "holding": false,
+      "realtime_str": "16-04-2026 17:27:02 | THURSDAY"
+    }
+  }
+]
