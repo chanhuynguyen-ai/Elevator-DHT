@@ -1,0 +1,15 @@
+FILE_LIST.txt
+README_APPLY_THIS_PATCH.txt
+backend/.env.example
+backend/app.py
+backend/requirements.txt
+backend/config/settings.py
+backend/services/camera_service.py
+backend/services/chat_service.py
+backend/existing_core/camera_session.py
+backend/existing_core/config.py
+backend/existing_core/face_recog.py
+backend/existing_core/pose_fall.py
+backend/existing_core/secure_core.py
+src/Component/camera/CameraPanel.js
+src/Component/camera/CameraPanel.scss

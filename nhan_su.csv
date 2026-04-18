@@ -1,1 +1,2 @@
 person_id,ho_ten,ma_nv,bo_phan,ngay_sinh,emb_file
+1,huy chấn,nv002,kỹ thuật,2001-11-11,embeddings\person_1.npy

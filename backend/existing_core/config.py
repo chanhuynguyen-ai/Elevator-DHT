@@ -6,6 +6,7 @@ MODEL_DET_PATH = "yolov8n.pt"
 MODEL_POSE_PATH = "yolov8n-pose.pt"
 
 CAM_INDEX = 0
+CAMERA_BACKEND = "AUTO"
 
 # ===== YOLO DETECT (person + bottle) =====
 IMGSZ = 384
@@ -17,22 +18,26 @@ CONF_BOTTLE = 0.35
 
 YOLO_EVERY_N = 3
 MIN_AREA = 12000
-YOLO_DEVICE = 0  # GPU id (0). CPU: "cpu"
+YOLO_DEVICE = "cpu"
 
 # ===== YOLO POSE =====
 POSE_EVERY_N = 4
-POSE_DEVICE = 0
+POSE_DEVICE = "cpu"
 POSE_CONF = 0.15
 POSE_IMGSZ = 512
 
 # ===== Fall =====
-FALL_CONFIRM_SEC = 0.8
+FALL_CONFIRM_SEC = 1.20
 FALL_COOLDOWN_SEC = 8.0
+FALL_TRANSITION_SEC = 2.5
+FALL_MIN_BOX_AR = 1.45
+FALL_MIN_LOW_CENTER_RATIO = 0.52
+FALL_MAX_TORSO_SLOPE = 0.28
 
 # ===== FACE =====
 NGUONG_SIM = 0.45
 NHAN_DIEN_MOI = 3.0
-FACE_CTX_ID = 0
+FACE_CTX_ID = -1
 FACE_DET_SIZE = (128, 128)
 
 # ===== Tracking =====
@@ -40,7 +45,7 @@ MISS_MAX = 25
 
 # ===== CAMERA =====
 MIRROR = True
-ROTATE_MODE = None  # None / cv2.ROTATE_90_CLOCKWISE / cv2.ROTATE_180 / cv2.ROTATE_90_COUNTERCLOCKWISE
+ROTATE_MODE = None
 
 # ===== CSV + embedding =====
 CSV_PATH = "nhan_su.csv"

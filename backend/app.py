@@ -1,5 +1,40 @@
 from __future__ import annotations
 
+import os
+import sys
+from typing import IO
+
+
+def _ensure_valid_std_handles() -> None:
+    """Avoid WinError 6 on Windows when a dependency uses subprocess with invalid std handles."""
+    if os.name != "nt":
+        return
+
+    keepalive: list[IO] = []
+    for name, mode in (("stdin", "r"), ("stdout", "a"), ("stderr", "a")):
+        current = getattr(sys, name, None)
+        current_dunder = getattr(sys, f"__{name}__", None)
+
+        def _is_valid(stream) -> bool:
+            try:
+                return stream is not None and stream.fileno() >= 0
+            except Exception:
+                return False
+
+        if not _is_valid(current):
+            fallback = open(os.devnull, mode, encoding="utf-8", buffering=1)
+            keepalive.append(fallback)
+            setattr(sys, name, fallback)
+            current = fallback
+
+        if not _is_valid(current_dunder):
+            setattr(sys, f"__{name}__", current)
+
+    setattr(sys, "_smartelevator_std_keepalive", keepalive)
+
+
+_ensure_valid_std_handles()
+
 from flask import Flask
 from flask_cors import CORS
 
@@ -24,7 +59,6 @@ CORS(
 socketio = init_socketio(app)
 register_blueprints(app)
 
-# eager init nhẹ để health check sẵn
 try:
     mongo_service.connect()
 except Exception as ex:

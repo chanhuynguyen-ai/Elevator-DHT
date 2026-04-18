@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# env files
+.env
+.env.*
+**/.env
+**/.env.*
+# Allow .env.example files to be committed as templates
+!*.env.example
+!**/*.env.example
+
+# python cache
+__pycache__/
+*.pyc
+
+# build artifacts
+build/
+dist/
+*.egg-info/
+
+# model files
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# data files
+*.csv
+nhan_su.csv
+storage/*.csv

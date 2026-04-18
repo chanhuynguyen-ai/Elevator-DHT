@@ -20,9 +20,12 @@ def _to_bool(value: str | None, default: bool = False) -> bool:
 class Settings:
     base_dir: Path = BASE_DIR
 
-    vision_device: str = os.getenv("VISION_DEVICE", "0")
-    pose_device: str = os.getenv("POSE_DEVICE", os.getenv("VISION_DEVICE", "0"))
-    face_ctx_id: int = int(os.getenv("FACE_CTX_ID", "0"))
+    # CPU-first defaults for Windows stability. Override in .env if you really want GPU.
+    vision_device: str = os.getenv("VISION_DEVICE", "cpu")
+    pose_device: str = os.getenv("POSE_DEVICE", os.getenv("VISION_DEVICE", "cpu"))
+    face_ctx_id: int = int(os.getenv("FACE_CTX_ID", "-1"))
+    camera_index: int = int(os.getenv("CAMERA_INDEX", "0"))
+    camera_backend: str = os.getenv("CAMERA_BACKEND", "AUTO")
 
     flask_host: str = os.getenv("FLASK_HOST", "0.0.0.0")
     flask_port: int = int(os.getenv("FLASK_PORT", "5000"))
@@ -44,7 +47,7 @@ class Settings:
 
     chat_model_path: str = os.getenv(
         "CHAT_MODEL_PATH",
-        r"F:\Intern Project\SmartElevator\Model\Elevator_Assistant.Q4_K_M.gguf",
+        str(BASE_DIR / "model" / "Elevator_Assistant.Q4_K_M.gguf"),
     )
     yolo_det_model_path: str = os.getenv(
         "YOLO_DET_MODEL_PATH",
@@ -63,7 +66,7 @@ class Settings:
     account_csv_path: Path = storage_dir / "account.csv"
 
     log_level: str = os.getenv("LOG_LEVEL", "INFO")
-    preview_enabled: bool = _to_bool(os.getenv("PREVIEW_ENABLED", "false"), False)
+    preview_enabled: bool = _to_bool(os.getenv("PREVIEW_ENABLED", "true"), True)
 
     def ensure_dirs(self) -> None:
         self.storage_dir.mkdir(parents=True, exist_ok=True)

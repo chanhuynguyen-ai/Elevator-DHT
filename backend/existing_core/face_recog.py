@@ -8,8 +8,11 @@ from . import utils_cv
 import existing_core
 
 
-def create_face_app(ctx_id: int, det_size=(224, 224)) -> FaceAnalysis:
-    face_app = FaceAnalysis(name="buffalo_l")
+def create_face_app(ctx_id: int, det_size=(224, 224), providers=None) -> FaceAnalysis:
+    kwargs = {}
+    if providers:
+        kwargs["providers"] = providers
+    face_app = FaceAnalysis(name="buffalo_l", **kwargs)
     face_app.prepare(ctx_id=ctx_id, det_size=det_size)
     return face_app
 
@@ -87,16 +90,44 @@ def _detect_largest_face_in_roi(face_app, frame, x1, y1, x2, y2):
 
     return f
 
-def capture_face_embedding_for_register(face_app, mirror=True, rotate_mode=None, web_mode=False, frame_callback=None, command_fetcher=None):
-    """
-    Đăng ký tự động 3 hướng:
-      1. GIUA
-      2. TRAI
-      3. PHAI
 
-    Không cần bấm SPACE.
-    """
-    cap = cv2.VideoCapture(config.CAM_INDEX, cv2.CAP_DSHOW)
+def _open_camera(index: int):
+    preferred = str(getattr(config, "CAMERA_BACKEND", "AUTO") or "AUTO").upper()
+    options = []
+    if preferred == "DSHOW":
+        options = [(cv2.CAP_DSHOW, "DSHOW")]
+    elif preferred == "MSMF":
+        options = [(cv2.CAP_MSMF, "MSMF")]
+    else:
+        options = [(cv2.CAP_DSHOW, "DSHOW"), (cv2.CAP_MSMF, "MSMF"), (None, "AUTO")]
+
+    for backend, label in options:
+        try:
+            cap = cv2.VideoCapture(index) if backend is None else cv2.VideoCapture(index, backend)
+            if cap is None or not cap.isOpened():
+                if cap is not None:
+                    cap.release()
+                continue
+
+            cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+            cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
+            for _ in range(15):
+                ok, frame = cap.read()
+                if ok and frame is not None and getattr(frame, "size", 0) > 0:
+                    print(f"[CAM] Register camera opened with {label} index={index}")
+                    return cap
+                time.sleep(0.05)
+
+            cap.release()
+        except Exception as ex:
+            print(f"[CAM] Register open failed {label} index={index}: {ex}")
+
+    return cv2.VideoCapture(index)
+
+
+def capture_face_embedding_for_register(face_app, mirror=True, rotate_mode=None, web_mode=False, frame_callback=None, command_fetcher=None):
+    cap = _open_camera(config.CAM_INDEX)
     if not cap.isOpened():
         print("[DK] Khong mo duoc webcam.")
         return None
