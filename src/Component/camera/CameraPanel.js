@@ -34,7 +34,7 @@ function CameraPanel() {
   const [persons, setPersons] = useState([]);
   const [controlModal, setControlModal] = useState({
     open: false,
-    type: '', // 'register', 'edit', 'delete'
+    type: '',
     title: '',
     submitLabel: '',
     payload: {},
@@ -43,18 +43,12 @@ function CameraPanel() {
   const [backendOnline, setBackendOnline] = useState(false);
   const [busyAction, setBusyAction] = useState('');
   const [toast, setToast] = useState(null);
-
   const [previewAvailable, setPreviewAvailable] = useState(false);
   const [streamNonce, setStreamNonce] = useState(Date.now());
-
-
-
   const [logDrawerOpen, setLogDrawerOpen] = useState(false);
   const [terminalDrawerOpen, setTerminalDrawerOpen] = useState(false);
-
   const [logs, setLogs] = useState([]);
   const [events, setEvents] = useState([]);
-
   const [terminalInput, setTerminalInput] = useState('');
   const [terminalLines, setTerminalLines] = useState([
     'SmartElevator Camera Terminal',
@@ -64,7 +58,6 @@ function CameraPanel() {
 
   const socketRef = useRef(null);
   const statusIntervalRef = useRef(null);
-
 
   const streamUrl = useMemo(
     () => `${API_BASE}/api/camera/stream?ts=${streamNonce}`,
@@ -139,7 +132,10 @@ function CameraPanel() {
         });
         result = await res.json();
       } else if (type === 'edit') {
-        if (!payload.person_id) { showToast('error', 'Vui lòng chọn nhân viên cần sửa'); return; }
+        if (!payload.person_id) {
+          showToast('error', 'Vui lòng chọn nhân viên cần sửa');
+          return;
+        }
         const res = await fetch(`${API_BASE}/api/personnel/edit`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
@@ -147,7 +143,10 @@ function CameraPanel() {
         });
         result = await res.json();
       } else if (type === 'delete') {
-        if (!payload.person_id) { showToast('error', 'Vui lòng chọn nhân viên cần xóa'); return; }
+        if (!payload.person_id) {
+          showToast('error', 'Vui lòng chọn nhân viên cần xóa');
+          return;
+        }
         if (!window.confirm(`Xác nhận xóa person_id=${payload.person_id}?`)) return;
         const res = await fetch(`${API_BASE}/api/personnel/delete`, {
           method: 'DELETE',
@@ -205,7 +204,7 @@ function CameraPanel() {
 
   const fetchRecentLogs = useCallback(async () => {
     try {
-      const res = await fetch(`${API_BASE}/api/logs/recent?limit=40&module=camera`);
+      const res = await fetch(`${API_BASE}/api/logs/recent?limit=30&module=camera`);
       const data = await res.json();
 
       if (data.success && Array.isArray(data.items)) {
@@ -229,10 +228,9 @@ function CameraPanel() {
 
   const startPolling = useCallback(() => {
     clearPolling();
-
     statusIntervalRef.current = setInterval(() => {
       fetchCameraStatus();
-    }, 1000);
+    }, 2000);
   }, [clearPolling, fetchCameraStatus]);
 
   const setupSocket = useCallback(() => {
@@ -267,14 +265,12 @@ function CameraPanel() {
 
     socket.on('camera_event', (payload) => {
       setEvents((prev) => [payload, ...prev].slice(0, 30));
-
       if (payload?.event_type) {
         setCameraStatus((prev) => ({
           ...prev,
           last_event: payload.event_type,
         }));
       }
-
       pushLog('camera', 'EVENT', JSON.stringify(payload));
     });
 
@@ -295,7 +291,6 @@ function CameraPanel() {
 
   useEffect(() => {
     initModule();
-
     return () => {
       clearPolling();
       if (socketRef.current) socketRef.current.disconnect();
@@ -341,10 +336,8 @@ function CameraPanel() {
     return res.json();
   };
 
-
   const runAction = async (label, runner, options = {}) => {
     if (busyAction) return;
-
     setBusyAction(label);
 
     try {
@@ -359,21 +352,25 @@ function CameraPanel() {
           clearPolling();
           setPreviewAvailable(false);
           setStreamNonce(Date.now());
+          setEvents([]);
           setCameraStatus((prev) => ({
             ...prev,
             running: false,
             paused: false,
             mode: 'stopped',
             note: 'Camera stopped',
+            last_event: null,
           }));
         }
 
         if (options.afterStart) {
+          setEvents([]);
           setCameraStatus((prev) => ({
             ...prev,
             running: true,
             mode: 'starting',
             note: 'Đang khởi động camera...',
+            last_event: null,
           }));
           setPreviewAvailable(false);
           setStreamNonce(Date.now());
@@ -513,6 +510,19 @@ function CameraPanel() {
     }
   };
 
+  const statsItems = useMemo(() => ([
+    { label: 'Backend', value: backendOnline ? 'Online' : 'Offline' },
+    { label: 'Camera', value: cameraStatus.running ? (cameraStatus.paused ? 'Paused' : 'Running') : 'Stopped' },
+    { label: 'FPS', value: Number(cameraStatus.fps || 0).toFixed(1) },
+    { label: 'People', value: cameraStatus.people_count || 0 },
+    { label: 'YOLO', value: cameraStatus.yolo_every_n },
+    { label: 'Sim', value: Number(cameraStatus.sim_threshold || 0).toFixed(2) },
+    { label: 'Mirror', value: cameraStatus.mirror ? 'On' : 'Off' },
+    { label: 'Rotate', value: cameraStatus.rotate || 'none' },
+    { label: 'Preview', value: previewAvailable ? 'Ready' : 'Waiting' },
+    { label: 'Last event', value: cameraStatus.last_event || 'None' },
+  ]), [backendOnline, cameraStatus, previewAvailable]);
+
   const renderPreviewContent = () => {
     if (cameraStatus.running) {
       return (
@@ -537,14 +547,13 @@ function CameraPanel() {
     );
   };
 
-
   return (
     <div className="camera-panel">
       <div className="camera-panel__hero">
         <div className="camera-panel__hero-text">
-          <div className="camera-panel__badge">CAMERA AI</div>
+          <div className="camera-panel__badge">CAMERA AI CLEAN</div>
           <h3>Giám sát camera AI</h3>
-          <p>Hiển thị camera stream trên web, gửi command thật đến backend vision và nhận trạng thái realtime.</p>
+          <p>Khung hình chỉ hiển thị ảnh camera và bbox. Thông số trạng thái được dời sang panel bên phải.</p>
         </div>
 
         <div className="camera-panel__hero-actions">
@@ -578,25 +587,6 @@ function CameraPanel() {
         </div>
       </div>
 
-      <div className="camera-panel__status-bar">
-        <div className={`camera-chip ${backendOnline ? 'ok' : 'warn'}`}>
-          Backend: {backendOnline ? 'Online' : 'Offline'}
-        </div>
-        <div className={`camera-chip ${cameraStatus.running ? 'ok' : 'idle'}`}>
-          Camera: {cameraStatus.running ? (cameraStatus.paused ? 'Paused' : 'Running') : 'Stopped'}
-        </div>
-        <div className={`camera-chip ${cameraStatus.paused ? 'warn' : 'ok'}`}>
-          Pause: {cameraStatus.paused ? 'Yes' : 'No'}
-        </div>
-        <div className="camera-chip">Mirror: {cameraStatus.mirror ? 'On' : 'Off'}</div>
-        <div className="camera-chip">Rotate: {cameraStatus.rotate || 'none'}</div>
-        <div className="camera-chip">YOLO: {cameraStatus.yolo_every_n}</div>
-        <div className="camera-chip">Sim: {Number(cameraStatus.sim_threshold || 0).toFixed(2)}</div>
-        <div className="camera-chip">FPS: {cameraStatus.fps || 0}</div>
-        <div className="camera-chip">People: {cameraStatus.people_count || 0}</div>
-        <div className="camera-chip event">Last event: {cameraStatus.last_event || 'None'}</div>
-      </div>
-
       <div className="camera-panel__grid">
         <div className="camera-preview-card">
           <div className="camera-preview-card__header">
@@ -627,6 +617,72 @@ function CameraPanel() {
         </div>
 
         <div className="camera-control-card">
+          <div style={{
+            marginBottom: 16,
+            padding: 14,
+            borderRadius: 16,
+            background: 'rgba(9, 19, 37, 0.86)',
+            border: '1px solid rgba(68, 145, 255, 0.12)',
+          }}>
+            <div style={{
+              color: 'rgba(238, 248, 255, 1)',
+              fontSize: 18,
+              fontWeight: 700,
+              marginBottom: 12,
+            }}>
+              Thông số camera
+            </div>
+
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
+              gap: 10,
+            }}>
+              {statsItems.map((item) => (
+                <div
+                  key={item.label}
+                  style={{
+                    padding: '10px 12px',
+                    borderRadius: 12,
+                    background: 'rgba(11, 29, 52, 0.75)',
+                    border: '1px solid rgba(82, 160, 255, 0.12)',
+                  }}
+                >
+                  <div style={{
+                    fontSize: 11,
+                    color: 'rgba(147, 178, 202, 1)',
+                    marginBottom: 4,
+                  }}>
+                    {item.label}
+                  </div>
+                  <div style={{
+                    fontSize: 13,
+                    fontWeight: 700,
+                    color: 'rgba(220, 239, 255, 1)',
+                    wordBreak: 'break-word',
+                  }}>
+                    {item.value}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {cameraStatus.note ? (
+              <div style={{
+                marginTop: 12,
+                padding: '10px 12px',
+                borderRadius: 12,
+                background: 'rgba(11, 29, 52, 0.75)',
+                border: '1px solid rgba(82, 160, 255, 0.12)',
+                color: 'rgba(220, 239, 255, 1)',
+                fontSize: 12,
+                lineHeight: 1.5,
+              }}>
+                <strong>Ghi chú:</strong> {cameraStatus.note}
+              </div>
+            ) : null}
+          </div>
+
           <div className="camera-control-card__title">Điều khiển nhanh</div>
 
           <div className="camera-control-card__grid">
@@ -776,7 +832,6 @@ function CameraPanel() {
 
       {toast && <div className={`camera-toast ${toast.type}`}>{toast.message}</div>}
 
-      {/* Personnel modal */}
       {controlModal.open && (
         <div className="camera-action-modal-overlay">
           <div className="camera-action-modal">
@@ -787,14 +842,14 @@ function CameraPanel() {
             <div className="camera-action-modal__body">
               {controlModal.type === 'register' && (
                 <div className="camera-action-modal__info camera-form-group">
-                  <p style={{marginBottom: '1rem', color: '#00ffcc'}}>✅ Hệ thống đã nhận diện được khuôn mặt. Bạn hãy nhập thông tin nhân sự bên dưới để đăng ký.</p>
+                  <p style={{ marginBottom: '1rem', color: '#00ffcc' }}>✅ Hệ thống đã nhận diện được khuôn mặt. Bạn hãy nhập thông tin nhân sự bên dưới để đăng ký.</p>
                 </div>
               )}
 
               {controlModal.type === 'edit' && (
                 <div className="camera-form-group">
                   <label>
-                    <span style={{color: '#ffdd00'}}>Chọn nhân viên cần sửa</span>
+                    <span style={{ color: '#ffdd00' }}>Chọn nhân viên cần sửa</span>
                     <select
                       value={controlModal.payload.person_id || ''}
                       onChange={(e) => setControlModal(p => ({ ...p, payload: { ...p.payload, person_id: e.target.value } }))}
@@ -816,7 +871,7 @@ function CameraPanel() {
                     ⚠ Xóa nhân viên sẽ xóa vĩnh viễn embedding khuôn mặt và tái đánh lại ID.
                   </p>
                   <label>
-                    <span style={{color: '#ffdd00'}}>Chọn nhân viên cần xóa</span>
+                    <span style={{ color: '#ffdd00' }}>Chọn nhân viên cần xóa</span>
                     <select
                       value={controlModal.payload.person_id || ''}
                       onChange={(e) => setControlModal(p => ({ ...p, payload: { ...p.payload, person_id: e.target.value } }))}
@@ -836,7 +891,7 @@ function CameraPanel() {
                 <>
                   <div className="camera-form-group">
                     <label>
-                      <span style={{color: '#ffdd00'}}>Họ Tên (Bắt buộc)</span>
+                      <span style={{ color: '#ffdd00' }}>Họ Tên (Bắt buộc)</span>
                       <input
                         type="text"
                         value={controlModal.payload.ho_ten || ''}
@@ -847,7 +902,7 @@ function CameraPanel() {
                   </div>
                   <div className="camera-form-group">
                     <label>
-                      <span style={{color: '#ffdd00'}}>Mã Nhân Viên</span>
+                      <span style={{ color: '#ffdd00' }}>Mã Nhân Viên</span>
                       <input
                         type="text"
                         value={controlModal.payload.ma_nv || ''}
@@ -858,7 +913,7 @@ function CameraPanel() {
                   </div>
                   <div className="camera-form-group">
                     <label>
-                      <span style={{color: '#ffdd00'}}>Phòng Ban</span>
+                      <span style={{ color: '#ffdd00' }}>Phòng Ban</span>
                       <input
                         type="text"
                         value={controlModal.payload.bo_phan || ''}
@@ -869,7 +924,7 @@ function CameraPanel() {
                   </div>
                   <div className="camera-form-group">
                     <label>
-                      <span style={{color: '#ffdd00'}}>Ngày Sinh</span>
+                      <span style={{ color: '#ffdd00' }}>Ngày Sinh</span>
                       <input
                         type="date"
                         value={controlModal.payload.ngay_sinh || ''}
